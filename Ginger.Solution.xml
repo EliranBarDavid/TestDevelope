@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="ce529034-6602-423d-97a5-8431a5151014" ItemType="Solution" CreatedBy="eliranba" Created="201810311358" GingerVersion="3.0.0.0" Version="1" LastUpdateBy="eliranba" LastUpdate="201810311358" />
+<Solution AlmType="QC" Guid="ce529034-6602-423d-97a5-8431a5151014" Name="Solution1" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="MyWebServicesApp" CoreGUID="00000000-0000-0000-0000-000000000000" Guid="98120342-3af0-4bc9-a47d-50f81b0f00f7" GUID="00000000-0000-0000-0000-000000000000" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices" />
+</ApplicationPlatforms>
+</Solution></GingerRepositoryItem>
