@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="5329f827-cabd-4a23-93f1-ff3697d7a9fc" ItemType="RunSetConfig" CreatedBy="ELIRANBA" Created="201811061321" GingerVersion="3.0.0.0" Version="2" LastUpdateBy="ELIRANBA" LastUpdate="201811061323" />
+<RunSetConfig Guid="5329f827-cabd-4a23-93f1-ff3697d7a9fc" Name="Default Run Set" ParentGuid="00000000-0000-0000-0000-000000000000">
+<GingerRunners>
+<GingerRunner Active="True" Guid="8366af1e-8bcc-41c5-a021-edefe5b08718" Name="Runner 1" ParentGuid="00000000-0000-0000-0000-000000000000" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentName="MyWebServicesApp - Agent 1" AppName="MyWebServicesApp" Guid="0dc242d2-69f7-4479-8b2c-f7200491f80e" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="8f4be4dd-8fcd-4b1d-b50f-5a9fe77613f4" BusinessFlowInstanceGuid="43af83f6-6c7b-4802-916d-5920bd23e2fa" BusinessFlowIsActive="True" BusinessFlowName="Business Flow 1" Created="1/1/0001 12:00:00 AM" Guid="15ed4f5f-93f1-4aee-84f6-83eecdbd5b4a" LastUpdate="1/1/0001 12:00:00 AM" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+
+<RunSetActions>
+<RunSetActionHTMLReport Condition="AlwaysRun" Guid="6a54c514-21bb-4689-b1e4-9c0da8b8f776" HTMLReportFolderName="C:\Git\Reports\" isHTMLReportFolderNameUsed="True" Name="Produce HTML Report" ParentGuid="00000000-0000-0000-0000-000000000000" RunAt="ExecutionEnd" selectedHTMLReportTemplateID="1" />
+</RunSetActions>
+</RunSetConfig></GingerRepositoryItem>
